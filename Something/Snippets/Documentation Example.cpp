@@ -3,7 +3,7 @@ using json = nlohmann::json;
 int main(int argc, char* argv[])
 {
 	// Create bot object with a minimum log level of trace
-	aegis::core bot(aegis::create_bot_t().log_level(spdlog::level::trace).token("NjQ1OTgwMzE2NDY4NTEwNzIx.XdKeHQ.YhIKkgFEwJbsIvDI5kQMGHhEoVA"));
+	aegis::core bot(aegis::create_bot_t().log_level(spdlog::level::trace).token(""));
 	AEGIS_TRACE(bot.log, "Bot object created");
 	// With min log level set to trace and wsdbg (websocket debug) set to true
 	// the bot will dump all websocket messages to console
