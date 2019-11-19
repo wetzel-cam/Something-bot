@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="src\Something-bot.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Token.json" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{FD3255C8-A07B-4429-A16E-3F81B75A91F7}</ProjectGuid>
