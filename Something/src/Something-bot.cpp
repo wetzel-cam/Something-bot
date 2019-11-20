@@ -5,14 +5,17 @@ using json = nlohmann::json;
 using string = std::string;
 
 string read_token();
-void set_bot_properties();
+void start_bot();
 
 int main()
 {
-	set_bot_properties();
+	start_bot();
 	return 0;
 }
 
+/***
+	Small method to read from a file for the token
+**/
 string read_token()
 {
 	json token_file;
@@ -22,7 +25,7 @@ string read_token()
 	return token_file["token"];
 }
 
-void set_bot_properties() 
+void start_bot() 
 {
 	// Creates bot with log and token (read from Data/Token.json file)
 	aegis::core bot(aegis::create_bot_t().log_level(spdlog::level::trace).token(read_token()));
