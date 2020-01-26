@@ -1,5 +1,5 @@
 # Directories to ignore
-build/
+#build/
 
 # File types to ignore
 *.sublime-workspace
