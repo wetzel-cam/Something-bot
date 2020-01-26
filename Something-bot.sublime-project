@@ -2,7 +2,16 @@
 	"folders":
 	[
 		{
-			"path": "/home/cameron/Desktop/Something-bot"
+			"path": "src"
+		},
+		{
+			"path": "snippets"
+		},
+		{
+			"path": "lib"
+		},
+		{
+			"path": "build"
 		}
 	]
 }

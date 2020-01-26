@@ -12,40 +12,59 @@
 	"buffers":
 	[
 		{
-			"file": "src/Something-bot.cpp",
+			"file": "/A/cameron/Documents/Stream Stuff/Todo list.txt",
 			"settings":
 			{
-				"buffer_size": 1200,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "snippets/Test-file.cpp",
-			"settings":
-			{
-				"buffer_size": 76,
+				"buffer_size": 300,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "CC=g++\nCFLAGS=-I ./lib/aegis.cpp/include\n\ntest: ./snippets/Test-file.o\n\t$(CC) -o test ./snippets/Test-file.o\n\nbuild: ./src/Something-bot.o \n\t$(CC) -o run ./src/Something-bot.o $(CFLAGS)",
 			"file": "Makefile",
-			"file_size": 184,
-			"file_write_time": 132217241506166682,
 			"settings":
 			{
-				"buffer_size": 185,
+				"buffer_size": 158,
 				"encoding": "UTF-8",
-				"line_ending": "Unix",
+				"line_ending": "Windows",
 				"name": "test: Test-file.cpp"
 			}
 		},
 		{
-			"file": "/home/cameron/.config/sublime-text-3/Packages/User/cpp_build_template.sublime-build",
+			"file": "CMakeLists.txt",
 			"settings":
 			{
-				"buffer_size": 6,
+				"buffer_size": 817,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "cmake_minimum_required(VERSION 3.10)"
+			}
+		},
+		{
+			"file": "/C/Users/cwetz/AppData/Roaming/Sublime Text 3/Packages/User/test.sublime-build",
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "untitled.sublime-build"
+			}
+		},
+		{
+			"file": "src/Something-bot.h.in",
+			"settings":
+			{
+				"buffer_size": 131,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#define Something-bot-VRESION_MAJOR @Something-bot"
+			}
+		},
+		{
+			"file": "snippets/Something-bot.cpp",
+			"settings":
+			{
+				"buffer_size": 366,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -78,12 +97,32 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"folder",
+				"Sublime Merge: Folder History"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: Cma",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 157.0,
 		"history":
 		[
 		]
@@ -99,19 +138,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cameron/Desktop/Something-bot",
-		"/home/cameron/Desktop/Something-bot/snippets",
-		"/home/cameron/Desktop/Something-bot/src"
+		"/A/cameron/Projects/Something-bot/src",
+		"/A/cameron/Projects/Something-bot/snippets"
 	],
 	"file_history":
 	[
-		"/home/cameron/Desktop/Something-bot/src/Test-file.cpp",
+		"/C/Program Files/Sublime Text 3/Packages/C++.sublime-package",
+		"/C/Users/cwetz/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/A/cameron/Projects/Something-bot/playing_with_build_systems.sublime-build",
+		"/A/cameron/Projects/Something-bot/src/Something-bot.cpp",
 		"/home/cameron/.config/sublime-text-3/Packages/User/cpp_build_template.sublime-build",
+		"/home/cameron/Desktop/Something-bot/src/Test-file.cpp",
 		"/home/cameron/Desktop/Something-bot/Something-bot/src/Something-bot.cpp"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -125,6 +167,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Tutorial",
+			"VRESION",
+			"MAJOR",
+			"major",
+			"cmd",
+			" \"",
+			"the",
+			" \t",
+			"va",
+			"=====\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -132,6 +184,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Something-bot",
+			"VERSION",
+			"MINOR",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -142,81 +198,52 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/Something-bot.cpp",
+					"file": "/A/cameron/Documents/Stream Stuff/Todo list.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1200,
+						"buffer_size": 300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215,
-								215
+								300,
+								300
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "snippets/Test-file.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 76,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								74,
-								74
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "Makefile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 185,
+						"buffer_size": 158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								185,
-								185
+								158,
+								158
 							]
 						],
 						"settings":
@@ -228,24 +255,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/cameron/.config/sublime-text-3/Packages/User/cpp_build_template.sublime-build",
+					"buffer": 2,
+					"file": "CMakeLists.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6,
+						"buffer_size": 817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6,
-								6
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"auto_name": "cmake_minimum_required(VERSION 3.10)",
+							"syntax": "Packages/CMake/CMake.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/cwetz/AppData/Roaming/Sublime Text 3/Packages/User/test.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
 							]
 						],
 						"settings":
@@ -256,7 +312,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Something-bot.h.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#define Something-bot-VRESION_MAJOR @Something-bot",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "snippets/Something-bot.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -264,11 +377,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -295,17 +408,17 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 114.0
+		"height": 180.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/cpp_build_template.sublime-build",
+	"pinned_build_system": "Packages/User/test.sublime-build",
 	"project": "Something-bot.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
